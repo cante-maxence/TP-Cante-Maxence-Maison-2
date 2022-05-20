@@ -1,19 +1,252 @@
 
 <template>
-  <section class="bg-indigo-50">
+  <section class="bg-indigo-50 ">
     <h1 class="text-center text-xl">TP agence immobilière</h1>
       <header>
-        <div class="p-3 mt-5 mb-5 bg-gray-50 flex flex-row justify-between">
+        <div class="p-3 mt-5 mb-5 bg-gray-50 flex items-center">
           <div>
-
-            <p class="inline-block ml-4 mr-4 text-lg text-blue-600 ">Estatery</p>
+            <p class="ml-4 mr-4 text-lg text-blue-600 ">Estatery</p>
+            <div class="invisible xl:visible flex items-center "> 
+              
+  <div
+  class="flex items-center flex-grow-0 flex-shrink-0 w-[556px] gap-12 absolute pl-32 pb-9 "
+>
+<div class="justify-center"></div>
+  <div class="flex  items-center flex-grow-0 flex-shrink-0  gap-2.5">
+    <p class="flex-grow-0 flex-shrink-0 text-base font-medium  text-gray-900">Rent</p>
+  </div>
+  <div class="flex  items-center flex-grow-0 flex-shrink-0  gap-2.5">
+    <p class="flex-grow-0 flex-shrink-0 text-base font-medium  text-gray-900">Buy</p>
+  </div>
+  <div class="flex  items-center flex-grow-0 flex-shrink-0  gap-2.5">
+    <p class="flex-grow-0 flex-shrink-0 text-base font-medium  text-gray-900">Sell</p>
+  </div>
+  <div class="flex  items-center flex-grow-0 flex-shrink-0  gap-2">
+    <p class="flex-grow-0 flex-shrink-0 text-base font-medium  text-gray-900">
+      Manage Property
+    </p>
+    <svg
+      width="16"
+      height="16"
+      viewBox="0 0 16 16"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      class="flex-grow-0 flex-shrink-0 w-4 h-4"
+      preserveAspectRatio="xMidYMid meet"
+    >
+      <path
+        d="M3.33337 5.66666L8.00004 10.3333L12.6667 5.66666"
+        stroke="#111827"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      ></path>
+    </svg>
+  </div>
+  <div class="flex justify-start items-center flex-grow-0 flex-shrink-0  gap-2">
+    <p class="flex-grow-0 flex-shrink-0 text-base font-medium text-left text-gray-900">Resources</p>
+    <svg
+      width="16"
+      height="16"
+      viewBox="0 0 16 16"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      class="flex-grow-0 flex-shrink-0 w-4 h-4 "
+      preserveAspectRatio="xMidYMid meet"
+    >
+      <path
+        d="M3.33337 5.66666L8.00004 10.3333L12.6667 5.66666"
+        stroke="#111827"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      ></path>
+    </svg>
+  </div>
+  <div class="flex justify-start items-center flex-grow-0 flex-shrink-0 w-[63px] h-6 gap-2.5"></div>
+  <div
+    class="flex justify-start items-center flex-grow-0 flex-shrink-0 w-[113px] h-6 gap-2.5"
+  ></div>
+  <div class="flex justify-start items-center flex-grow-0 flex-shrink-0 w-[31px] h-6 gap-2.5"></div>
+</div>
+  
+  
+  
+           </div>
           </div>
-          <MenuAlt4Icon class="inline-block text-right w-8"/>
+          <MenuAlt4Icon class="inline-block absolute right-10 text-right w-8 xl:invisible 2xl:invisible visible"/>
+
+<div
+  class="xl:visible 2xl:visible invisible absolute right-10 justify-center items-center flex-grow-0 flex-shrink-0 gap-2.5 px-6 py-3 m-1 rounded-lg border-2 border-indigo-200"
+>
+  <p class="justify-self-end flex-grow-0 flex-shrink-0 text-base font-bold text-center text-indigo-500">Login</p>
+</div>
+<div
+  class="justify-self-end xl:visible 2xl:visible invisible flex justify-center items-center flex-grow-0 flex-shrink-0 absolute right-36 gap-2.5 px-6 py-3 rounded-lg bg-indigo-500"
+>
+  <p class="flex-grow-0 flex-shrink-0 right-4 text-base font-bold text-center m-1 text-white">Sign up</p>
+</div>
+
         </div>
       </header>
       <main>
-        <h2 class="text-lg font-bold text-center mb-4">Search proprieties to rent</h2>
-        <section class="overflow-hidden flex items-center justify-center ">
+        <h2 class="text-lg font-bold text-center mb-4 visible xs:invisible sm:invisible md:invisible">Search proprieties to rent</h2>
+        <!--barre de recherche mais que sur le petit -->
+<div class="flex flex-col justify-start items-start w-full relative gap-10">
+
+  <div class="flex justify-start items-start self-stretch flex-grow-0 flex-shrink-0 relative gap-8">
+    <p class="flex-grow w-[864px] text-4xl font-bold text-left text-[#000929] invisible xs:visible sm:visible md:visible">
+      Search properties to rent
+    </p>
+    <div
+      class="flex flex-col justify-center py-3 items-center invisible xs:visible sm:visible md:visible flex-grow-0 flex-shrink-0 w-[352px] gap-2.5 px-4 mb-5 rounded-lg bg-white border-[1.5px] border-indigo-100"
+    >
+      <div
+        class="flex  justify-between items-center self-stretch flex-grow-0 flex-shrink-0 relative"
+      >
+        <p
+          class="flex-grow-0  flex-shrink-0 opacity-70 text-base font-medium text-left text-gray-900"
+        >
+          Search with Search Bar
+        </p>
+        <svg
+          width="20"
+          height="20"
+          viewBox="0 0 20 20"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+          class="flex-grow-0 flex-shrink-0 w-5 h-5"
+          preserveAspectRatio="xMidYMid meet"
+        >
+          <circle cx="10" cy="10" r="10" fill="#E0E7FF"></circle>
+          <path
+            d="M6.5 8.25L10 11.75L13.5 8.25"
+            stroke="#6366F1"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          ></path>
+        </svg>
+      </div>
+    </div>
+
+
+</div>
+
+  </div>
+
+
+  <div class="self-stretch flex-grow-0 flex-shrink-0 h-[104px] overflow-hidden relative invisible xs:visible sm:visible md:visible">
+    <div
+      class="w-full h-[104px] absolute left-[-1px] top-[-1px] rounded-tr-lg rounded-bl-lg rounded-br-lg bg-white"
+    ></div>
+    <div
+      class="flex justify-center items-center w-[1184px] absolute left-[31px] top-[23px] gap-8 rounded-tr-lg rounded-bl-lg rounded-br-lg"
+    >
+      <div class="flex flex-col justify-start items-start flex-grow relative gap-1">
+        <p
+          class="flex-grow-0 flex-shrink-0 opacity-50 text-base font-medium text-left text-gray-900"
+        >
+          Location
+        </p>
+        <p
+          class="flex-grow-0 flex-shrink-0 w-[180px] h-7 text-lg font-bold text-left text-gray-900"
+        >
+          New York, USA
+        </p>
+      </div>
+      <svg
+        width="1"
+        height="44"
+        viewBox="0 0 1 44"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        class="flex-grow-0 flex-shrink-0"
+        preserveAspectRatio="xMidYMid meet"
+      >
+        <line x1="0.5" y1="2.18557e-8" x2="0.499998" y2="44" stroke="#E0E7FF"></line>
+      </svg>
+      <div class="flex flex-col justify-start items-start flex-grow relative gap-1">
+        <p
+          class="flex-grow-0 flex-shrink-0 opacity-50 text-base font-medium text-left text-gray-900"
+        >
+          When
+        </p>
+        <p
+          class="flex-grow-0 flex-shrink-0  h-7 text-lg font-bold text-left text-gray-900"
+        >
+          Select Move-in Date
+        </p>
+      </div>
+      <svg
+        width="1"
+        height="44"
+        viewBox="0 0 1 44"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        class="flex-grow-0 flex-shrink-0"
+        preserveAspectRatio="xMidYMid meet"
+      >
+        <line x1="0.5" y1="2.18557e-8" x2="0.499998" y2="44" stroke="#E0E7FF"></line>
+      </svg>
+      <div class="flex flex-col justify-start items-start flex-grow relative gap-1 w-min">
+        <p
+          class="flex-grow-0 flex-shrink-0 opacity-50 text-base font-medium text-left text-gray-900"
+        >
+          Price
+        </p>f
+        <p class="flex-grow-0 flex-shrink-0 text-lg font-bold text-left w-max text-gray-900">
+          $500-$2,500
+        </p>
+      </div>
+      <svg
+        width="1"
+        height="44"
+        viewBox="0 0 1 44"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+        class="flex-grow-0 flex-shrink-0"
+        preserveAspectRatio="xMidYMid meet"
+      >
+        <line x1="0.5" y1="2.18557e-8" x2="0.499998" y2="44" stroke="#E0E7FF"></line>
+      </svg>
+      <div
+        class="flex justify-center items-center flex-grow-0 flex-shrink-0 relative overflow-hidden gap-2.5 px-8 py-4 rounded-lg bg-indigo-500"
+      >
+        <p class="flex-grow-0 flex-shrink-0 text-base font-bold text-center text-white">Search</p>
+      </div>
+    </div>
+  </div>
+
+<div
+  class="flex flex-col justify-center items-center self-stretch visible xl:invisible lg:invisible 2xl:invisible flex-grow-0 flex-shrink-0 gap-2.5 px-4 py-3 rounded-lg bg-white border-[1.5px] border-indigo-100"
+>
+  <div class="flex justify-between items-center self-stretch flex-grow-0 flex-shrink-0 relative">
+    <p class="flex-grow-0 flex-shrink-0 opacity-70 text-base font-medium text-left text-gray-900">
+      Search with Search Bar
+    </p>
+    <svg
+      width="20"
+      height="20"
+      viewBox="0 0 20 20"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      class="flex-grow-0 flex-shrink-0 w-5 h-5"
+      preserveAspectRatio="xMidYMid meet"
+    >
+      <circle cx="10" cy="10" r="10" fill="#E0E7FF"></circle>
+      <path
+        d="M6.5 8.25L10 11.75L13.5 8.25"
+        stroke="#6366F1"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      ></path>
+    </svg>
+  </div>
+</div>
+
+        <section class="overflow-hidden flex items-center justify-center visible md:invisible sm:invisible xs:invisible">
           <div class="pt-2 relative mx-auto text-gray-600">
             <input class="border-2 border-gray-300 bg-white h-10 px-5 pr-16 rounded-lg text-sm focus:outline-none"
               type="search" name="search" placeholder="Search location">
@@ -28,8 +261,7 @@
             </button>
           </div>
         </section>
-        <section>
-        </section>
+
         
         <div class="grid grid-flow-row-dense grid-cols-[repeat(auto-fit,minmax(400px,1fr))]">
             <card 
