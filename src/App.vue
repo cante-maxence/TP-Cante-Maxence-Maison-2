@@ -95,7 +95,7 @@
 <div class="flex flex-col justify-start items-start w-full relative gap-10">
 
   <div class="flex justify-start items-start self-stretch flex-grow-0 flex-shrink-0 relative gap-8">
-    <p class="flex-grow w-[864px] text-4xl font-bold text-left text-[#000929] invisible xs:visible sm:visible md:visible">
+    <p class="flex-grow w-[864px] pl-6 text-4xl font-bold text-left flex-shrink-0 text-[#000929] invisible xs:visible sm:visible md:visible">
       Search properties to rent
     </p>
     <div
@@ -194,7 +194,7 @@
           class="flex-grow-0 flex-shrink-0 opacity-50 text-base font-medium text-left text-gray-900"
         >
           Price
-        </p>f
+        </p>
         <p class="flex-grow-0 flex-shrink-0 text-lg font-bold text-left w-max text-gray-900">
           $500-$2,500
         </p>
@@ -211,7 +211,7 @@
         <line x1="0.5" y1="2.18557e-8" x2="0.499998" y2="44" stroke="#E0E7FF"></line>
       </svg>
       <div
-        class="flex justify-center items-center flex-grow-0 flex-shrink-0 relative overflow-hidden gap-2.5 px-8 py-4 rounded-lg bg-indigo-500"
+        class="flex right-10 items-center flex-grow-0 flex-shrink-0  overflow-hidden gap-2.5 px-8 py-4 rounded-lg bg-indigo-500 "
       >
         <p class="flex-grow-0 flex-shrink-0 text-base font-bold text-center text-white">Search</p>
       </div>
@@ -219,9 +219,9 @@
   </div>
 
 <div
-  class="flex flex-col justify-center items-center self-stretch visible xl:invisible lg:invisible 2xl:invisible flex-grow-0 flex-shrink-0 gap-2.5 px-4 py-3 rounded-lg bg-white border-[1.5px] border-indigo-100"
+  class="flex flex-col -mt-40 mx-4 justify-center items-center self-stretch visible xl:invisible lg:invisible 2xl:invisible md:invisible sm:invisible flex-grow-0 flex-shrink-0 gap-2.5 px-4 py-3 rounded-lg bg-white border-[1.5px] border-indigo-100"
 >
-  <div class="flex justify-between items-center self-stretch flex-grow-0 flex-shrink-0 relative">
+  <div class="flex justify-between  items-center self-stretch flex-grow-0 flex-shrink-0 ">
     <p class="flex-grow-0 flex-shrink-0 opacity-70 text-base font-medium text-left text-gray-900">
       Search with Search Bar
     </p>
@@ -246,7 +246,7 @@
   </div>
 </div>
 
-        <section class="overflow-hidden flex items-center justify-center visible md:invisible sm:invisible xs:invisible">
+        <section class="overflow-hidden mt-24 flex items-center justify-center visible md:invisible sm:invisible xs:invisible">
           <div class="pt-2 relative mx-auto text-gray-600">
             <input class="border-2 border-gray-300 bg-white h-10 px-5 pr-16 rounded-lg text-sm focus:outline-none"
               type="search" name="search" placeholder="Search location">
